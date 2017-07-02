@@ -22,7 +22,7 @@
  * Author(s):  Michael Wybrow
 */
 
-
+#include <algorithm>
 #include <cmath>
 #include <cfloat>
 #include <cstdlib>
