@@ -22,6 +22,7 @@
  * Author(s):  Michael Wybrow
 */
 
+#include <algorithm>
 #include <cstdlib>
 
 #include "libavoid/junction.h"
