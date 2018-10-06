@@ -116,7 +116,7 @@ class AVOID_EXPORT ShapeRef : public Obstacle
         //! @param[in]  id      Optionally, a positive integer ID unique
         //!                     among all objects.
         //!
-        ShapeRef(Router *router, Polygon& poly, const unsigned int id = 0);
+        ShapeRef(Router *router, const Polygon& poly, const unsigned int id = 0);
 
 // To prevent C++ objects from being destroyed in garbage collected languages
 // when the libraries are called from SWIG, we hide the declarations of the
