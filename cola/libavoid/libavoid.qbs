@@ -7,7 +7,7 @@ StaticLib {
 
 	Export {
 		Depends { name: "cpp" }
-		cpp.includePaths: [".."]
+		cpp.systemIncludePaths: [".."]
 	}
 
 	files: [
